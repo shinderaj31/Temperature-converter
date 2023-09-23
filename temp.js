@@ -8,7 +8,7 @@ const calculateTemp = () => {
     const celToFah = (cel) => {
         let fahrenheit = ((cel * 9 / 5) + 32).toFixed(1);
         return fahrenheit;
-    }a
+    }
 
     // Fahrenheit to Celsius
     const fahToCel = (fah) => {
